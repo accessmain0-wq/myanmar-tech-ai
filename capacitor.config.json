@@ -1,0 +1,25 @@
+{
+  "appId": "com.thawzinphyo.fbgrabber",
+  "appName": "TZP FB Grabber",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "allowNavigation": [
+      "*.facebook.com",
+      "*.fb.watch",
+      "*.fdown.net",
+      "*.snapsave.app",
+      "*.getmyfb.com",
+      "api.allorigins.win",
+      "corsproxy.io",
+      "api.codetabs.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true,
+    "backgroundColor": "#0a0e0f"
+  }
+}
