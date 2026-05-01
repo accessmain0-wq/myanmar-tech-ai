@@ -1,0 +1,21 @@
+{
+  "name": "tzp-fb-grabber",
+  "version": "3.0.0",
+  "description": "THAW ZIN PHYO :: Facebook Video Grabber - Pentest Tool",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "cap:init": "npx cap init",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "cap:open": "npx cap open android",
+    "apk:debug": "cd android && ./gradlew assembleDebug",
+    "apk:release": "cd android && ./gradlew assembleRelease",
+    "full:build": "npm run build && npx cap sync && npm run apk:debug"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/android": "^7.0.0"
+  }
+}
