@@ -1,0 +1,9 @@
+{
+  "name": "fbdown-proxy",
+  "version": "1.0.0",
+  "description": "Facebook Video Download Proxy by Thaw Zin Phyo",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
